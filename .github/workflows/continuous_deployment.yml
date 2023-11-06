@@ -2,7 +2,7 @@ name: CD
 
 on:
   push:
-    branches: [main]
+    branches: [dev]
 
 concurrency:
   group: cd-${{ github.head_ref }}
